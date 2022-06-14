@@ -1,0 +1,327 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    line-height: 1.7rem;
+}
+
+
+.title{
+    background-image: url("./images/lissete-laverde-v6QALWIY4o8-unsplash.jpg");
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+}
+
+/* .centered{
+    color: whitesmoke;
+} */
+
+
+/* .centered{
+    padding-top: 100%;
+    position: absolute;
+    background: #000;
+    margin-bottom: 2%;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+} */
+
+
+.show{
+    position: relative;
+    text-align: center;
+}
+
+/* .show .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* .row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.allP{
+    color: white;
+    font-size: 30px;
+    font-style: 500;
+    text-transform: uppercase;
+}
+.text{
+    margin-top: 150px;
+    text-align: center;
+}
+.bt{
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: rgb(17, 49, 49);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item1{
+    width: 33.333%;
+    height: 200px;
+    background-color: chartreuse;
+}
+
+.item2{
+    width: 33.333%;
+    height: 200px;
+    background-color: rgb(255, 166, 0);
+}
+
+.item3{
+    width: 33.333%;
+    height: 200px;
+    background-color: rgb(0, 225, 255);
+}
+
+.item4{
+    width: 33.333%;
+    height: 200px;
+    background-color: rgb(255, 0, 200);
+}
+
+.item5{
+    width: 33.333%;
+    height: 200px;
+    background-color: rgb(255, 0, 85);
+}
+
+.item6{
+    width: 33.333%;
+    height: 200px;
+    background-color: rgb(0, 110, 255);
+}
+
+.intro{
+    color: rgb(4,54,56);
+    margin-bottom: 200px;
+}
+
+.rd-link{
+    color: rgb(4,54,56);
+    text-decoration:inherit;
+    text-decoration: 3px solid yellow underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration-line: 5px;
+}
+
+.rd-link:hover{
+    text-decoration-color: rgb(144, 210, 211);
+    color: rgb(4,54,56);
+}
+
+
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+/* .form-contact{
+    background-color: rgb(247, 242, 242);
+    width: 300px;
+    height: auto;
+    padding: 50px;
+    border-radius: 3px;
+    
+} */
+
+
+
+/* .row{
+    padding-top: 6rem;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+
+.intro1 h1{
+    font-size: 60px;
+    color: rgb(238,238,238);
+    letter-spacing: -3px;
+}
+
+.cnt{
+    color: rgb(210,206,202);
+}
+
+
+.guide{
+    text-align:justify;
+    font-size: 22px;
+    color: rgb(210,206,202);
+}
+
+h1{
+
+    font-weight: 600;
+    font-size: 78px;
+    font-family: "Poppins", Sans-serif;
+}
+
+h4{
+    text-align: justify;
+}
+
+input{
+    width: 50%;
+    height: 40px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    border:1px solid lightgrey;
+}
+
+input:focus{
+    outline: none;
+}
+
+input:hover{
+    background-color: lightgrey;
+}
+
+input::placeholder{
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+/* button{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+} */
+
+.press{
+    margin-top: 200px;
+}
+
+.txt-press{
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.press-img{
+    margin-bottom: 200px;
+}
+
+.img-logo{
+    padding-top: 35px;
+    margin-right: 20px;
+    
+}
+
+.logo{
+    width: 21%;
+    max-width: auto;
+    height: 100%;
+    filter: brightness( 100% ) contrast( 0% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+
+.ft-bg{
+    background: rgb(239,239,239);
+    width: 100%;
+}
+
+.ft{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.footer-item a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: small;
+    color: black;
+}
+
+.footer-item a:hover{
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.footer-item li{
+    list-style: none;
+}
+
+.cpy-rgt p{
+    font-size: small;
+    margin-left: 85px;
+    color: rgb(137,121,127);
+    font-weight: lighter;
+}
+
+.cpy-rgt a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: small;
+    color: rgb(0,0,0);
+}
+
+.cpy-rgt a:hover{
+color: rgba(0, 0, 0, 0.616);
+}
+
+.san{
+    font-size: smaller;
+    font-weight: lighter;
+    color: rgb(137,121,127);
+}
+
+@media (max-width: 768px) {
+    .logo{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        margin-left: 30%;
+    
+    }
+}
+
+@media (max-width: 768px) {
+    .container1{
+        width: 100%;
+        margin-left: 30%;
+    
+    }
+}
+
+
+
+
